@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+    color: whitesmoke;
+}
+
+body {
+    font-family: "Rochester", cursive;
+    width: 100vw-10vw;
+    height: 100vh;
+    background-color: black;
+    padding: 100px;
+    padding-top: 200px;
+}
+
+.background {
+    width: 86vw;
+    height: 96vw;
+    position: absolute;
+    background-color: grey;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.column {
+    padding: 2px;
+    flex-direction: row;
+}
+
+.image {
+    width: 100%;
+    filter: grayscale(70%);
+}
+
+.image:hover {
+    filter: brightness(130%);
+}
+
+p {
+    position: relative;
+    bottom: 4vw;
+    left: 70vw;
+    color: whitesmoke;
+}
